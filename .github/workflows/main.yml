@@ -3,7 +3,7 @@ name: Python Teste
 on:
   push:
     branches:
-  -main
+  -main:
     jobs:
       testes:
         runs-on: ubuntu-latest
